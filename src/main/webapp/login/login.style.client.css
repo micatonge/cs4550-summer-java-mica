@@ -1,9 +1,11 @@
-body {
-    background-color: rgb(68, 170, 184);
-  }
-  h1 {
-    color: blue;
-  }
-  p {
-    color: red;
-  }
+#content{
+  box-shadow:rgba(0,0,0,0.06) 10px 10px;
+  border: 2px solid rgba(0, 0, 0, 0.226);
+  border-radius: 15px;
+  margin-left:200px;
+  padding: 50px;
+  margin-top:130px;
+  width:700px;
+  height:auto;
+  font-family: bitxmap;
+}

@@ -1,0 +1,25 @@
+
+#header{
+    text-align: center;
+}
+  #content{
+    box-shadow:rgba(0,0,0,0.06) 10px 10px;
+    border: 2px solid rgba(0, 0, 0, 0.226);
+    border-radius: 15px;
+    margin-left:200px;
+    padding: 50px;
+    margin-top: 100px;
+    width:700px;
+    height:auto;
+    font-family: bitxmap;
+}
+
+ #row{
+     padding: 7px;
+     margin-top: 10px;
+     text-align: center;
+ }
+ div{
+    height: auto; 
+    margin: 0 auto;
+ }
