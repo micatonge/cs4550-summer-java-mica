@@ -16,11 +16,11 @@ public class WidgetService {
 
     List<Widget> widgets = new ArrayList<Widget>();
     {
-        widgets.add(new Widget(123, "Widget 1", "HEADING"));
-        widgets.add(new Widget(234, "Widget 2", "PARAGRAPH"));
-        widgets.add(new Widget(345, "Widget 3", "YOUTUBE"));
-        widgets.add(new Widget(432, "Widget 4", "IMAGE"));
-        widgets.add(new Widget(567, "Widget 5", "PARAGRAPH"));
+        widgets.add(new Widget(123, "Widget 1", "HEADING", 1, "a", "b", 5, 1, 2, "a", "b", "c"));
+        widgets.add(new Widget(234, "Widget 2", "PARAGRAPH", 2, "a", "b", 5, 1, 2, "a", "b", "c"));
+        widgets.add(new Widget(345, "Widget 3", "YOUTUBE", 3, "a", "b", 5, 1, 2, "a", "b", "c"));
+        widgets.add(new Widget(432, "Widget 4", "IMAGE", 4, "a", "b", 5, 1, 2, "a", "b", "c"));
+        widgets.add(new Widget(567, "Widget 5", "PARAGRAPH", 4, "a", "b", 5, 1, 2, "a", "b", "c"));
     }
     public List<Widget> findWidgetsForTopic(String tid) {
         return (List<Widget>)repository.findAll();
