@@ -4,7 +4,7 @@
     import com.example.cs4550summermicaseverjava.models.Topic;
     import com.example.cs4550summermicaseverjava.models.Widget;
     import com.example.cs4550summermicaseverjava.repositories.TopicRepository;
-    import com.example.ccs4550summermicaseverjava.repositories.WidgetRepository;
+    import com.example.cs4550summermicaseverjava.repositories.WidgetRepository;
     import org.springframework.beans.factory.annotation.Autowired;
     import org.springframework.stereotype.Service;
     
@@ -27,11 +27,6 @@
             widgets.add(new Widget(345, "Widget 3", "YOUTUBE", 3, "a", "b", 5, 1, 2, "a", "b", "c"));
             widgets.add(new Widget(432, "Widget 4", "IMAGE", 4, "a", "b", 5, 1, 2, "a", "b", "c"));
             widgets.add(new Widget(567, "Widget 5", "PARAGRAPH", 4, "a", "b", 5, 1, 2, "a", "b", "c"));
-            widgets.add(new Widget(123, "Widget 1", "HEADING"));
-            widgets.add(new Widget(234, "Widget 2", "PARAGRAPH"));
-            widgets.add(new Widget(345, "Widget 3", "YOUTUBE"));
-            widgets.add(new Widget(432, "Widget 4", "IMAGE"));
-            widgets.add(new Widget(567, "Widget 5", "PARAGRAPH"));
         }
         public List<Widget> findWidgetsForTopic(Integer tid) {
             return repository.findWidgetsForTopic(tid);
